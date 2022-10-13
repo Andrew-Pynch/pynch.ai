@@ -28,10 +28,10 @@ const Boids = (props: BoidsProps) => {
     const [index, setIndex] = React.useState(0);
 
     useEffect(() => {
-        if (size !== undefined) {
+        if (size !== undefined && boids === undefined) {
             setBoids(getBoids());
         }
-    }, [size]);
+    }, [size, boids]);
 
     useEffect(() => {
         console.log('boids', boids);
@@ -55,9 +55,9 @@ const Boids = (props: BoidsProps) => {
 
             const interval = setInterval(() => {
                 setIndex(index + 1);
-            }, 16.7);
+            }, 160.7);
             return () => clearInterval(interval);
-        } else setBoids(getBoids());
+        }
     }, [index]);
 
     return (
