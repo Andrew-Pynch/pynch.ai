@@ -4,6 +4,7 @@ import CenteredColumn from './components/CenteredColumn';
 import HRGradient from './components/HRGradient';
 import Experience from './Experience';
 import React from 'react';
+import Boids from './Boids';
 
 const Home: NextPage = () => (
     <>
@@ -14,7 +15,7 @@ const Home: NextPage = () => (
                 flexDirection: 'column',
             }}
         >
-            <CenteredColumn>
+            {/* <CenteredColumn>
                 <AboutMeHeader />
             </CenteredColumn>
             <CenteredColumn>
@@ -22,7 +23,8 @@ const Home: NextPage = () => (
             </CenteredColumn>
             <CenteredColumn>
                 <Experience />
-            </CenteredColumn>
+            </CenteredColumn> */}
+            <Boids />
         </div>
     </>
 );
