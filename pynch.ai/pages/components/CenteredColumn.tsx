@@ -1,3 +1,5 @@
+import React from 'react';
+
 type CenteredColumnProps = {
     children?: React.ReactNode;
     style?: React.CSSProperties;

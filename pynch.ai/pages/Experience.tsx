@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import CenteredColumn from '../../pynch.ai/pages/components/CenteredColumn';
-
+import React from 'react';
 export interface IExperienceItem {
     startString: string;
     endString: string;

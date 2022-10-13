@@ -1,7 +1,8 @@
+import { Image } from 'native-base';
 import type { NextPage } from 'next';
-import Image from 'next/image';
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai';
 import { SiYoutubemusic } from 'react-icons/si';
+import React from 'react';
 
 const AboutMeHeader: NextPage = () => {
     return (
@@ -24,6 +25,7 @@ const AboutMeHeader: NextPage = () => {
                     width={300}
                     height={300}
                     alt="andrew pynch"
+                    borderRadius={'100%'}
                 />
                 <h1>Andrew Pynch</h1>
                 <p style={{ marginTop: -5 }}>

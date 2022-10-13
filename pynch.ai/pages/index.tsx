@@ -3,6 +3,7 @@ import AboutMeHeader from './AboutMeHeader';
 import CenteredColumn from './components/CenteredColumn';
 import HRGradient from './components/HRGradient';
 import Experience from './Experience';
+import React from 'react';
 
 const Home: NextPage = () => (
     <>

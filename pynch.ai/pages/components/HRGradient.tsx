@@ -1,3 +1,4 @@
+import React from 'react';
 type HRGradientProps = {};
 
 const HRGradient = (props: HRGradientProps) => {
